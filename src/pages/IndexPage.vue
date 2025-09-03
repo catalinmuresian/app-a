@@ -10,13 +10,7 @@ import {useRouter} from "vue-router";
 
 const router = useRouter()
 function handleBtn () {
-  if ('navigator' in window && 'serviceWorker' in navigator) {
-    // Încearcă să deschidă PWA-ul App B
-    window.open('https://catalinmuresian.github.io/app-b/', '_blank');
-  } else {
-    // Fallback la browser normal
-    router.push('https://catalinmuresian.github.io/app-b/');
-  }
+  window.open('https://catalinmuresian.github.io/app-b/', '_blank');
 }
 
 </script>
