@@ -1,7 +1,7 @@
 <template>
   <q-page class="flex flex-center">
     <h1>APP - A</h1>
-    <q-btn @click="handleBtn">nav to APP - B</q-btn>
+    <q-btn @click="handleBtn">nav to APP - B TdsdsEST</q-btn>
   </q-page>
 </template>
 
